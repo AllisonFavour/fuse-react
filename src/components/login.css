@@ -1,0 +1,13 @@
+.forgot-password > a,
+span > a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-section > p {
+    font-size: 10px;
+}
+
+.form-section p > span {
+margin-left: 18px;
+}

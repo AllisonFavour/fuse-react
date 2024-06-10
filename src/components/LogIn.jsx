@@ -1,5 +1,6 @@
 import gearIcon from "../../src/assets/gear-icon1.jpg";
 import {Link} from 'react-router-dom'
+import '../components/login.css'
 
 export default function LogIn() {
 
@@ -34,14 +35,13 @@ export default function LogIn() {
             </div>
 
             <div className="forgot-password">
-              Forgot password?
-              {/* <Link to=''>Forgot Password?</Link> */}
+              <Link to='/forgot-password'>Forgot Password?</Link>
             </div>
           </div>
 
           <input type="submit" value="Log In" />
 
-          <p>Don't have an account? Create new account</p>
+          <p>Don't have an account? <span><Link to={'/create-account'}>Create new account</Link></span></p>
         </div>
       </form>
     </section>
