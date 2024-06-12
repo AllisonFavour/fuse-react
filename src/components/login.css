@@ -1,13 +1,80 @@
+.logo {
+  width: 280px;
+}
+
+.login-section {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.form-section {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 30px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.login-one > input {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.forgot-pass {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.forgot-div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.forgot-div input[type="checkbox"] {
+  width: 8px;
+}
+.forgot-div label {
+  font-size: 10px;
+}
+
+.forgot-password {
+  font-size: 10px;
+}
+
+.form-section input[type="submit"] {
+  width: 100%;
+  padding: 6px 0;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .forgot-password > a,
 span > a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-.form-section > p {
-    font-size: 10px;
+.create-p {
+  margin: 20px 0;
+  font-size: 10px;
 }
 
-.form-section p > span {
-margin-left: 18px;
+.create-p span {
+  margin-left: 12px;
+  font-size: 12px;
+  font-weight: bold;
 }

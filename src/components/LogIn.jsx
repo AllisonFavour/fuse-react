@@ -1,9 +1,8 @@
 import gearIcon from "../../src/assets/gear-icon1.jpg";
-import {Link} from 'react-router-dom'
-import '../components/login.css'
+import { Link } from "react-router-dom";
+import "../components/login.css";
 
 export default function LogIn() {
-
   function handleSubmit(e) {
     e.preventDefault();
   }
@@ -12,7 +11,7 @@ export default function LogIn() {
     <section className="login-section">
       <div>
         <div className="logo-div">
-          <img className="logo" src={gearIcon} alt="Logo" />
+          <Link to={'/'}><img className="logo" src={gearIcon} alt="Logo" /></Link>
         </div>
 
         <h1>Fuse⚡</h1>
@@ -35,13 +34,18 @@ export default function LogIn() {
             </div>
 
             <div className="forgot-password">
-              <Link to='/forgot-password'>Forgot Password?</Link>
+              <Link to="/forgot-password">Forgot Password?</Link>
             </div>
           </div>
 
           <input type="submit" value="Log In" />
 
-          <p>Don't have an account? <span><Link to={'/create-account'}>Create new account</Link></span></p>
+          <p className="create-p">
+            Don't have an account?
+            <span>
+              <Link to={"/create-account"}>Create new account</Link>
+            </span>
+          </p>
         </div>
       </form>
     </section>
