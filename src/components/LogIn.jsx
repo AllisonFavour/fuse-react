@@ -41,7 +41,7 @@ export default function LogIn() {
           <input type="submit" value="Log In" />
 
           <p className="create-p">
-            Don't have an account?
+            Don&apos;t have an account?
             <span>
               <Link to={"/create-account"}>Create new account</Link>
             </span>
