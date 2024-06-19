@@ -1,17 +1,17 @@
 import gearIcon from "../../src/assets/gear-icon1.jpg";
 import { Link } from "react-router-dom";
 import "../components/login.css";
+import { handleSubmit } from "../scripts";
 
 export default function LogIn() {
-  function handleSubmit(e) {
-    e.preventDefault();
-  }
 
   return (
     <section className="login-section">
       <div>
         <div className="logo-div">
-          <Link to={'/'}><img className="logo" src={gearIcon} alt="Logo" /></Link>
+          <Link to="/">
+            <img className="logo" src={gearIcon} alt="Logo" />
+          </Link>
         </div>
 
         <h1>Fuse⚡</h1>

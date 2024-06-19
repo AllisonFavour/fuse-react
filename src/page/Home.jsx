@@ -7,11 +7,14 @@ import { TfiMenuAlt } from "react-icons/tfi";
 import "../page/home.css";
 import drake from "../../src/assets/drake.webp";
 
+
 export default function Home() {
+
+
   return (
     <>
       <main>
-        <header>
+        <header className='home-header'>
           <p>Welcome, Drake</p>
 
           <div className="img-div">

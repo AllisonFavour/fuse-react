@@ -1,3 +1,96 @@
+.main-container {
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    /* gap: 40px; */
+}
+
+p > a {
+    color: black;
+ }
+
+.header-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputs-container {
+    width: 300px;
+    height: max-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.inputs-container > p {
+    color: white;
+    margin: 20px;
+}
+
 form div > input{
     display: block;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: rgb(62, 57, 57);
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+form div > input::placeholder {
+    color: white;
+}
+
+.submit-btn {
+    background-color: black;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 6px;
+    padding: 6px;    
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.submit-btn:active {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.main-container-p {
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-container-p span{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-container-p span > a {
+    font-size: 14px;
+    color: black;
+}
+
+.main-container-p span > a:hover {
+    color: white;
 }
